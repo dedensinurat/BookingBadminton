@@ -53,8 +53,8 @@ class DatabaseSeeder extends Seeder
         // Create admin user
         \App\Models\User::create([
             'name' => 'Admin',
-            'email' => 'admin@salonbliss.com',
-            'password' => Hash::make('adminpassword'),
+            'email' => 'deny@gmail.com',
+            'password' => Hash::make('admin'),
             'phone_number' => '1234569990',
             'role_id' => UserRolesEnum::Admin,
         ]);
@@ -62,24 +62,24 @@ class DatabaseSeeder extends Seeder
         // create mock customers
         \App\Models\User::create([
             'name' => 'Customer 1',
-            'email' => 'cust1@gmail.com',
-            'password' => Hash::make('custpassword'),
+            'email' => 'custumer@gmail.com',
+            'password' => Hash::make('customer1'),
             'phone_number' => '1299567890',
             'role_id' => UserRolesEnum::Customer,
         ]);
 
         \App\Models\User::create([
             'name' => 'Customer 2',
-            'email' => 'cust2@gmail.com',
-            'password' => Hash::make('custpassword'),
+            'email' => 'customer2@gmail.com',
+            'password' => Hash::make('customer2'),
             'phone_number' => '1277567890',
             'role_id' => UserRolesEnum::Customer,
         ]);
 
         \App\Models\User::create([
             'name' => 'Customer 3',
-            'email' => 'cust3@gmail.com',
-            'password' => Hash::make('custpassword'),
+            'email' => 'customer3@gmail.com',
+            'password' => Hash::make('customer3'),
             'phone_number' => '1234998890',
             'role_id' => UserRolesEnum::Customer,
         ]);
@@ -87,8 +87,8 @@ class DatabaseSeeder extends Seeder
         // this customer is suspeneded
         \App\Models\User::create([
             'name' => 'Customer 4',
-            'email' => 'cust4@gmail.com',
-            'password' => Hash::make('custpassword'),
+            'email' => 'customer4@gmail.com',
+            'password' => Hash::make('customer4'),
             'phone_number' => '2224262890',
             'role_id' => UserRolesEnum::Customer,
             'status' => '0',
@@ -99,7 +99,7 @@ class DatabaseSeeder extends Seeder
         // create mock employees
         \App\Models\User::create([
             'name' => 'Employee 1',
-            'email' => 'emp1@salonbliss.com',
+            'email' => 'employe1@gmail.com',
             'password' => Hash::make('emppassword'),
             'phone_number' => '1644567890',
             'role_id' => UserRolesEnum::Employee,
@@ -107,7 +107,7 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::create([
             'name' => 'Employee 2',
-            'email' => 'emp2@salonbliss.com',
+            'email' => 'employe2@gmail.com',
             'password' => Hash::make('emppassword'),
             'phone_number' => '1234523890',
             'role_id' => UserRolesEnum::Employee,
@@ -116,7 +116,7 @@ class DatabaseSeeder extends Seeder
         // this Employee is suspeneded
         \App\Models\User::create([
             'name' => 'Employee 3',
-            'email' => 'emp3@gmail.com',
+            'email' => 'employe3@gmail.com',
             'password' => Hash::make('emppassword'),
             'phone_number' => '0034567890',
             'role_id' => UserRolesEnum::Employee,
@@ -124,14 +124,14 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // Deals
-        \App\Models\Deal::create([
-            'name' => 'Deal 1',
-            'description' => 'Deal 1 description',
-            'start_date' => '2023-07-16',
-            'end_date' => '2023-07-20',
-            'discount' => '10',
-            'is_hidden' => '0',
-        ]);
+        // \App\Models\Deal::create([
+        //     'name' => 'Deal 1',
+        //     'description' => 'Deal 1 description',
+        //     'start_date' => '2023-07-16',
+        //     'end_date' => '2023-07-20',
+        //     'discount' => '10',
+        //     'is_hidden' => '0',
+        // ]);
 
         // categories Skin, Makeup, Nails, Hair
         \App\Models\Category::create([
