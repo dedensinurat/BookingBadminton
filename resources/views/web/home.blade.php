@@ -14,7 +14,7 @@
 -->
 
 <section
-class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({{ asset('images/salon1.png') }}" ;>
+class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({{ asset('images/salon1.jpg') }}" ;>
 <div class="absolute inset-0 bg-gradient-to-r from-white/95 to-white/0 ltr:bg-gradient-to-r rtl:bg-gradient-to-l sm:bg-transparent sm:from-white/95 sm:to-white/0"></div>
 
 <div
@@ -22,24 +22,22 @@ class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({
 >
   <div class="max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
     <h1 class="text-3xl font-extrabold sm:text-5xl text-neutral-700">
-      Find Your Perfect Sport training Experience at
-      <strong class="block font-extrabold text-pink-500">
+      Energi dan ketekunan mengalahkan segalanya
+      <strong class="block font-extrabold text-gray-500">
         Sinurat Badminton    </strong>
     </h1>
 
-    <p class="mt-4 max-w-lg sm:text-xl/relaxed">
-      Discover a World of sport with Badminton field booking.
-         </p>
+
 
     <div class="mt-8 flex flex-wrap gap-4 text-center">
       <a
         href="{{route('services')}}"
-        class="block w-full rounded bg-pink-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-pink-700 focus:outline-none focus:ring active:bg-pink-500 sm:w-auto"
+        class="block w-full rounded bg-gray-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring active:bg-gray-500 sm:w-auto"
       >
 Book Now      </a>
 <a
           href="{{route('services')}}"
-          class="block w-full rounded bg-white px-12 py-3 text-lg font-medium text-pink-500 shadow hover:text-pink-600 focus:outline-none focus:ring-offset-pink-400 active:text-pink-500 sm:w-auto"
+          class="block w-full rounded bg-white px-12 py-3 text-lg font-medium text-gray-500 shadow hover:text-gray-600 focus:outline-none focus:ring-offset-gray-400 active:text-gray-500 sm:w-auto"
         >
           Browse Services
         </a>
@@ -52,28 +50,28 @@ Book Now      </a>
 </section>
 
         {{-- <img class="w-full bg-cover" src="{{ asset('images\Salon2.jpg') }}" alt="Banner image"> --}}
-        {{-- <div class="absolute right-1 top-5 font-black text-pink-600 text-7xl">30% OFF <br>THIS SEASON</div> --}}
+        {{-- <div class="absolute right-1 top-5 font-black text-gray-600 text-7xl">30% OFF <br>THIS SEASON</div> --}}
  <div>
-    <div class="text-center text-4xl font-semibold text-pink-500 m-2 mt-5">Categories</div>
+    <div class="text-center text-4xl font-semibold text-gray-500 m-2 mt-5">Categories</div>
 
     <div class="container flex gap-10 p-10 pt-3 justify-center mx-auto">
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
           <img class="w-60 rounded-xl" src="{{ asset('images/hair.jpg')}}" alt="">
-          <span class="text-pink-500 text-2xl">field</span>
+          <span class="text-gray-500 text-2xl">field</span>
       </a>
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
         <img class="w-60 rounded-xl" src="{{ asset('images/nails.jpg')}}"  alt="">
-        <span class="text-pink-500 text-2xl">ball</span>
+        <span class="text-gray-500 text-2xl">ball</span>
 
       </a>
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
         <img class="w-60 rounded-xl" src="{{ asset('images/skin.jpg')}}" alt="">
-        <span class="text-pink-500 text-2xl">seat</span>
+        <span class="text-gray-500 text-2xl">seat</span>
 
       </a>
       <a href="#" class="text-center gap-2 duration-300 hover:scale-105">
         <img class="w-60 rounded-xl" src="{{ asset('images/makeup.jpg')}}" alt="">
-        <span class="text-pink-500 text-2xl">change room</span>
+        <span class="text-gray-500 text-2xl">change room</span>
       </a>
     </div>
 
@@ -82,7 +80,7 @@ Book Now      </a>
     <section class="pt-5 bg-white">
       <div class="md:w-4/5 mx-auto">
         <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-          <h3 class="mb-6 text-3xl text-pink-500 font-bold">Popular Services</h3>
+          <h3 class="mb-6 text-3xl text-gray-500 font-bold">Popular Services</h3>
           <p class="mb-6 pb-2 text-gray-700 md:mb-12 md:pb-0">
             Services Popular among our customers.
           </p>
@@ -103,7 +101,7 @@ Book Now      </a>
 
       <div class="flex justify-end mx-auto pb-5 gap-3 md:w-3/4">
 
-        <a href="{{route('services')}}" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-4 rounded">
+        <a href="{{route('services')}}" class="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
           View All Services
         </a>
       </div>
@@ -112,7 +110,7 @@ Book Now      </a>
         {{-- <x-button>View all services</x-button>   --}}
         {{-- <a
           href="#"
-          class="block w-full rounded bg-pink-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-pink-700 focus:outline-none focus:ring active:bg-pink-500 sm:w-auto"
+          class="block w-full rounded bg-gray-500 px-12 py-3 text-lg font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring active:bg-gray-500 sm:w-auto"
         >
   Browse Services    </a> --}}
 
@@ -120,7 +118,7 @@ Book Now      </a>
 
 <section class=" w-3/4 p-3 mx-auto pt-5">
 <div>
-  <div class="text-center text-4xl font-semibold text-pink-500 m-2">Offers</div>
+  <div class="text-center text-4xl font-semibold text-gray-500 m-2">Offers</div>
 </div>
 <div class="flex gap-10 ">
     @if($deals->count() > 0)
@@ -131,7 +129,7 @@ Book Now      </a>
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{{ $deal->name }}</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 ">{{ $deal->description }}</p>
-                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-pink-500 rounded-lg hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 ">
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-500 rounded-lg hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 ">
                         View Offer
                         <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </a>
@@ -149,7 +147,7 @@ Book Now      </a>
     {{-- Gallery --}}
     <section class="pt-5 pb-5">
         <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-          <h3 class="text-3xl text-pink-500 font-bold">Gallery</h3>
+          <h3 class="text-3xl text-gray-500 font-bold">Gallery</h3>
         </div>
         <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
           <div class="-m-1 flex flex-wrap md:-m-2">
@@ -205,151 +203,12 @@ Book Now      </a>
         </div>
     </section>
     {{-- Nail Extensions --}}
-    <section class="bg-white pt-5">
-      <div class="md:w-3/4 mx-auto">
-        <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-          <h3 class="mb-6 text-3xl text-pink-500 font-bold">Field Service</h3>
-          <p class="mb-6 pb-2 text-gray-700 md:mb-12 md:pb-0">
-            Here are the Field Service from our customers who have visited our field.
-          </p>
-        </div>
 
-        <div class="grid gap-6 text-center p-6 md:grid-cols-3 lg:gap-12">
-          <div class="mb-12 md:mb-0">
-            <div class="mb-6 flex justify-center">
-              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).jpg" class="w-32 rounded-full shadow-lg dark:shadow-black/30">
-            </div>
-            <h5 class="mb-4 text-xl font-semibold">Kim Wexler</h5>
-            <h6 class="mb-4 font-semibold text-primary dark:text-primary-400">
-              Lawyer
-            </h6>
-            <p class="mb-4 text-neutral-500">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2" viewBox="0 0 24 24">
-                <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"></path>
-              </svg>
-              I had the most amazing experience at Sinuratfield! The staff were so friendly and welcoming, and my body looked absolutely stunning. I received so many compliments after my appointment and I can't wait to go back!
-            </p>
-            <ul class="mb-0 flex items-center justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg clip-rule="evenodd" fill-rule="evenodd" fill="currentColor" class="h-5 w-5 text-yellow-500" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="m11.322 2.923c.126-.259.39-.423.678-.423.289 0 .552.164.678.423.974 1.998 2.65 5.44 2.65 5.44s3.811.524 6.022.829c.403.055.65.396.65.747 0 .19-.072.383-.231.536-1.61 1.538-4.382 4.191-4.382 4.191s.677 3.767 1.069 5.952c.083.462-.275.882-.742.882-.122 0-.244-.029-.355-.089-1.968-1.048-5.359-2.851-5.359-2.851s-3.391 1.803-5.359 2.851c-.111.06-.234.089-.356.089-.465 0-.825-.421-.741-.882.393-2.185 1.07-5.952 1.07-5.952s-2.773-2.653-4.382-4.191c-.16-.153-.232-.346-.232-.535 0-.352.249-.694.651-.748 2.211-.305 6.021-.829 6.021-.829s1.677-3.442 2.65-5.44zm.678 2.033v11.904l4.707 2.505-.951-5.236 3.851-3.662-5.314-.756z" fill-rule="nonzero"></path>
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="mb-12 md:mb-0">
-            <div class="mb-6 flex justify-center">
-              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg" class="w-32 rounded-full shadow-lg dark:shadow-black/30">
-            </div>
-            <h5 class="mb-4 text-xl font-semibold">Lisa Cudrow</h5>
-            <h6 class="mb-4 font-semibold text-primary dark:text-primary-400">
-              Graphic Designer
-            </h6>
-            <p class="mb-4 text-neutral-500">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2" viewBox="0 0 24 24">
-                <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"></path>
-              </svg>
-              "I had the best experince of my life at Sinuratbadminton field! The tariner listened to exactly what I wanted and then gave me a training that exceeded my expectations. I felt so pampered and taken care of throughout the whole process. I can't wait to come back for my next appointment!
-            </p>
-            <ul class="mb-0 flex items-center justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-            </ul>
-          </div>
-          <div class="mb-0">
-            <div class="mb-6 flex justify-center">
-              <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(4).jpg" class="w-32 rounded-full shadow-lg dark:shadow-black/30">
-            </div>
-            <h5 class="mb-4 text-xl font-semibold">Jane Smith</h5>
-            <h6 class="mb-4 font-semibold text-primary dark:text-primary-400">
-              Marketing Specialist
-            </h6>
-            <p class="mb-4 text-neutral-500">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block h-7 w-7 pr-2" viewBox="0 0 24 24">
-                <path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z"></path>
-              </svg>
-              "I had a last-minute body emergency and Sinuratfield saved the day! The staff were able to fit me in right away and they did an amazing job. I can't thank them enough for their professionalism and expertise. I will definitely be coming back!"
-            </p>
-            <ul class="mb-0 flex items-center justify-center">
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5 text-yellow-500">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
-                </svg>
-              </li>
-              <li>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="h-5 w-5 text-yellow-500" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"></path>
-                </svg>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </section>
 
 
     <section class="mb-12" id="offer-banner">
 
-      <div class="bg-pink-600 alert alert-dismissible fade show fixed bottom-0 right-0 left-0 z-[1030] w-full py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
+      <div class="bg-gray-600 alert alert-dismissible fade show fixed bottom-0 right-0 left-0 z-[1030] w-full py-4 px-6 text-white md:flex justify-between items-center text-center md:text-left">
         <div class="mb-4 md:mb-0 flex items-center flex-wrap justify-center md:justify-start">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="w-4 h-4 mr-2">
             <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
@@ -370,7 +229,7 @@ Book Now      </a>
     </section>
     <!-- Footer container -->
 <footer
-class="bg-pink-500 text-center text-neutral-100 lg:text-left">
+class="bg-gray-500 text-center text-neutral-100 lg:text-left">
 <div
   class="flex items-center justify-center border-b-2 border-neutral-200 p-6 lg:justify-between">
   <div class="mr-12 hidden lg:block">
